@@ -614,3 +614,53 @@ main{
     
 } 
 
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bitcoin-orange);
+    
+    padding: 36px 0;
+
+}
+
+.footer-left{   
+    list-style: none; 
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;    
+}
+
+footer li{
+    margin-top: 8px;
+}
+.footer-left a{
+    text-decoration: none;
+    color: var(--just-white);
+    text-align: center;    
+}
+
+.footer-right{
+    list-style: none;    
+    align-self: center;
+}
+.footer-right li{
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+
+}
+
+
+.footer-right li span{
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    background-image: url('./assets/icons/batata.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: calc(50% - 20px);
+}
